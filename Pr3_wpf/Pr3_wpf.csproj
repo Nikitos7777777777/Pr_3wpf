@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="left.png" />
+    <None Remove="random.png" />
+    <None Remove="replei.png" />
+    <None Remove="right.png" />
+    <None Remove="start.jpg" />
+    <None Remove="start1.png" />
+    <None Remove="stop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="left.png" />
+    <Resource Include="random.png" />
+    <Resource Include="replei.png" />
+    <Resource Include="right.png" />
+    <Resource Include="start.jpg" />
+    <Resource Include="start1.png" />
+    <Resource Include="stop.png" />
+  </ItemGroup>
+
+</Project>
